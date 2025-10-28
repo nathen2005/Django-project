@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurants</title>
+</head>
+<body>
+    <h1>Available Restaurants</h1>
+    <ul>
+        {% for restaurant in restaurants %}
+            <li>{{ restaurant.name }} — {{ restaurant.location }}</li>
+        {% empty %}
+            <li>No restaurants available yet.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
