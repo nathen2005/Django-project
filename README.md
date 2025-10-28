@@ -18,3 +18,6 @@ This is a web-based food delivery system developed using Django. The system allo
 - Database: SQLite (can also use PostgreSQL)
 - Additional Tools: Django REST Framework, ReportLab, OpenPyXL
 
+
+- API 2025 - Sept
+
